@@ -96,9 +96,16 @@
         text-decoration: none;
         list-style-type: none;
         background-color: #4285F4;
-        text-color: white;
+        color: white;
         border-radius: 2px;
         margin-left: -37px;
+
+      }
+
+      #notice-board-header {
+
+        background-color: #db0f00;
+        color: white;
 
       }
       
@@ -151,6 +158,8 @@
     <!-- Announcements -->
     <div>
 
+      <h1 class="notice-board" id="notice-board-header">Notice Board</h1>
+      
       <marquee class="notice-board" direction="up" scrollamount="3" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" style="height: 250px; width: 300px; margin-left: 25px">
 
         <ul>
